@@ -1,35 +1,21 @@
 {
-  "name": "hdjk",
-  "authors": [
-    "zdl"
-  ],
-  "description": "public files configuration",
-  "main": "",
-  "moduleType": [],
-  "license": "MIT",
-  "homepage": "",
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "name": "web-server",
+  "description": "第三方js依赖",
   "dependencies": {
-    "text": "~2.0.14",
     "jquery": "1.11.1",
+    "jquery-validation": "~1.14.0",
     "require-css": "~0.1.8",
-    "bootstrap": "2.3.2",
-    "bootstrap-datepicker": "~1.5.1",
-    "jquery-migrate": "1.2.1",
-    "jquery.cookie": "jquery-cookie#~1.4.1",
     "json2": "*",
-    "underscore": "~1.8.3"
+    "bootstrap": "2.3.2",
+    "text": "~2.0.14",
+    "requirejs": "~2.1.22",
+    "lodash": "~3.10.1"
   },
-  "preen": {
-    "jquery": [
-      "dist/*.js"
-    ]
+  "overrides": {
+    "json2": {
+      "main": [
+        "json2.js"
+      ]
+    }
   }
 }
